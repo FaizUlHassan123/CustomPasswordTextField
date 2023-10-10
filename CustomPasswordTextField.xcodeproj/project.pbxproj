@@ -13,6 +13,8 @@
 		22D774A62AD58A8A00AF4BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D774A42AD58A8A00AF4BDD /* Main.storyboard */; };
 		22D774A82AD58A8C00AF4BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D774A72AD58A8C00AF4BDD /* Assets.xcassets */; };
 		22D774AB2AD58A8C00AF4BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D774A92AD58A8C00AF4BDD /* LaunchScreen.storyboard */; };
+		22D774B32AD58AA400AF4BDD /* CustomPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D774B22AD58AA400AF4BDD /* CustomPasswordTextField.swift */; };
+		22D774B52AD58C3200AF4BDD /* ScreenRecording.mov in Resources */ = {isa = PBXBuildFile; fileRef = 22D774B42AD58C3100AF4BDD /* ScreenRecording.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		22D774A72AD58A8C00AF4BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D774AA2AD58A8C00AF4BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22D774AC2AD58A8C00AF4BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D774B22AD58AA400AF4BDD /* CustomPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPasswordTextField.swift; sourceTree = "<group>"; };
+		22D774B42AD58C3100AF4BDD /* ScreenRecording.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = ScreenRecording.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,33 @@
 		22D7749D2AD58A8A00AF4BDD /* CustomPasswordTextField */ = {
 			isa = PBXGroup;
 			children = (
+				22D774B72AD58C5900AF4BDD /* VIewController */,
+				22D774B62AD58C4D00AF4BDD /* Class */,
+				22D774B42AD58C3100AF4BDD /* ScreenRecording.mov */,
 				22D7749E2AD58A8A00AF4BDD /* AppDelegate.swift */,
 				22D774A02AD58A8A00AF4BDD /* SceneDelegate.swift */,
-				22D774A22AD58A8A00AF4BDD /* ViewController.swift */,
 				22D774A42AD58A8A00AF4BDD /* Main.storyboard */,
 				22D774A72AD58A8C00AF4BDD /* Assets.xcassets */,
 				22D774A92AD58A8C00AF4BDD /* LaunchScreen.storyboard */,
 				22D774AC2AD58A8C00AF4BDD /* Info.plist */,
 			);
 			path = CustomPasswordTextField;
+			sourceTree = "<group>";
+		};
+		22D774B62AD58C4D00AF4BDD /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				22D774B22AD58AA400AF4BDD /* CustomPasswordTextField.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		22D774B72AD58C5900AF4BDD /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				22D774A22AD58A8A00AF4BDD /* ViewController.swift */,
+			);
+			path = VIewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D774AB2AD58A8C00AF4BDD /* LaunchScreen.storyboard in Resources */,
+				22D774B52AD58C3200AF4BDD /* ScreenRecording.mov in Resources */,
 				22D774A82AD58A8C00AF4BDD /* Assets.xcassets in Resources */,
 				22D774A62AD58A8A00AF4BDD /* Main.storyboard in Resources */,
 			);
@@ -139,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22D774A32AD58A8A00AF4BDD /* ViewController.swift in Sources */,
+				22D774B32AD58AA400AF4BDD /* CustomPasswordTextField.swift in Sources */,
 				22D7749F2AD58A8A00AF4BDD /* AppDelegate.swift in Sources */,
 				22D774A12AD58A8A00AF4BDD /* SceneDelegate.swift in Sources */,
 			);
